@@ -13,7 +13,19 @@
     "editor.wordHighlightBackground": "#eceba3cc",
     "peekViewResult.matchHighlightBackground": "#ffb442cc",
     "editorIndentGuide.background": "#D3D3D3",
-    "editorLineNumber.foreground": "#000000"
+    "editorLineNumber.foreground": "#d0d0d0",
+    "editorLineNumber.activeForeground": "#a0a0a0",
+    "activityBar.background": "#ffffff",
+    "activityBar.foreground": "#000000",
+    "statusBar.background": "#ffffff",
+    "statusBar.foreground": "#494949",
+    "tab.activeBackground": "#ffffff",
+    "tab.inactiveBackground": "#f6f6f6",
+    "editorGroup.emptyBackground": "#ffffff",
+    "editorGroupHeader.tabsBackground": "#ffffff",
+    "sideBar.background": "#ffffff",
+    "sideBarSectionHeader.background": "#ffffff",
+    "titleBar.activeBackground": "#ffffff"
   },
   "tokenColors": [
     {
