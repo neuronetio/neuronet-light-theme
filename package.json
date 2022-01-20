@@ -1,21 +1,30 @@
 {
-    "name": "neuronet-light-theme",
-    "displayName": "neuronet-light-theme",
-    "description": "VSCODE light theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "NEURONET light theme",
-                "uiTheme": "vs",
-                "path": "./themes/NEURONET light theme-color-theme.json"
-            }
-        ]
-    }
+  "name": "neuronet-light-theme",
+  "displayName": "NEURONET light theme",
+  "description": "VSCODE light theme",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NEURONET light theme",
+        "uiTheme": "vs",
+        "path": "./themes/NEURONET light theme-color-theme.json"
+      }
+    ]
+  },
+  "author": {
+    "name": "Rafał Pośpiech",
+    "email": "neuronet.io@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/neuronetio/neuronet-light-theme",
+    "type": "git"
+  }
 }
