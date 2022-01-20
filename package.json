@@ -1,0 +1,21 @@
+{
+    "name": "neuronet-light-theme",
+    "displayName": "neuronet-light-theme",
+    "description": "VSCODE light theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NEURONET light theme",
+                "uiTheme": "vs",
+                "path": "./themes/NEURONET light theme-color-theme.json"
+            }
+        ]
+    }
+}
