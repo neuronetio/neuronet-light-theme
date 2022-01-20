@@ -23,6 +23,7 @@
     "name": "Rafał Pośpiech",
     "email": "neuronet.io@gmail.com"
   },
+  "publisher": "NEURONETIO",
   "repository": {
     "url": "https://github.com/neuronetio/neuronet-light-theme",
     "type": "git"
