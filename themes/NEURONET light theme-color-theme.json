@@ -97,7 +97,7 @@
         "punctuation.definition.parameters.begin.js"
       ],
       "settings": {
-        "foreground": "#00000025"
+        "foreground": "#00000090"
       }
     },
     {
@@ -155,7 +155,7 @@
         "variable.object.property"
       ],
       "settings": {
-        "foreground": "#009900"
+        "foreground": "#00610b"
       }
     },
     {
