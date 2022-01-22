@@ -25,7 +25,13 @@
     "editorGroupHeader.tabsBackground": "#ffffff",
     "sideBar.background": "#ffffff",
     "sideBarSectionHeader.background": "#ffffff",
-    "titleBar.activeBackground": "#ffffff"
+    "titleBar.activeBackground": "#ffffff",
+    "editorBracketHighlight.foreground1": "#0431FAB0",
+    "editorBracketHighlight.foreground2": "#319331B0",
+    "editorBracketHighlight.foreground3": "#7B3814B0",
+    "editorBracketHighlight.foreground4": "#000000B0",
+    "editorBracketHighlight.foreground5": "#000000B0",
+    "editorBracketHighlight.foreground6": "#000000B0"
   },
   "tokenColors": [
     {
@@ -84,16 +90,21 @@
       "name": "Separators",
       "scope": [
         "punctation",
-        "punctuation.terminator.statement.js",
-        "punctuation.separator.key-value.js",
         "punctuation.separator.comma.js",
+        "punctuation.separator.key-value.js",
         "punctuation.accessor.js",
         "punctuation.definition.block.js",
-        "punctuation.definition.parameters.begin.js",
-        "punctuation.definition.parameters.end.js"
+        "punctuation.definition.parameters.begin.js"
       ],
       "settings": {
-        "foreground": "#FF0000"
+        "foreground": "#00000025"
+      }
+    },
+    {
+      "name": "Coma",
+      "scope": ["punctuation.terminator.statement.js"],
+      "settings": {
+        "foreground": "#00000020"
       }
     },
     {
