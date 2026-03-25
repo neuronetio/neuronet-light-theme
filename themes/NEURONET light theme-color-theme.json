@@ -235,7 +235,7 @@
         "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#0000E6"
+        "foreground": "#3f3fe2"
       }
     },
     {
@@ -313,6 +313,50 @@
       ],
       "settings": {
         "foreground": "#444444"
+      }
+    },
+    {
+      "name": "functions",
+      "scope": "entity.name.function",
+      "settings": { "foreground": "#1a8c27ef", "fontStyle": "bold" }
+    },
+    {
+      "name": "variables",
+      "scope": "entity.name.type.class",
+      "settings": { "foreground": "#000000cc", "fontStyle": "bold" }
+    },
+    {
+      "name": "types",
+      "scope": ["keyword.control.type.ts", "meta.block.ts", "meta.import.ts", "source.ts"],
+      "settings": {
+        "foreground": "#0000e6a6"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage",
+        "constant.language",
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        "storage.type.function.js",
+        "storage.type.js",
+        "variable.language.this",
+        "variable.language.java",
+        "variable.language.super.ts",
+        "keyword.control",
+        "keyword.operator.new",
+        "keyword.operator.expression.typeof.js",
+        "keyword.operator.expression.delete.js",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.other.import",
+        "keyword.other.import.static",
+        "keyword.other.package",
+        "support.type.primitive.ts"
+      ],
+      "settings": {
+        "foreground": "#0000e6c2"
       }
     }
   ]
