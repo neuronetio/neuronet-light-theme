@@ -12,7 +12,7 @@
     "editorWhitespace.foreground": "#ffffff",
     "editor.wordHighlightBackground": "#eceba3cc",
     "peekViewResult.matchHighlightBackground": "#ffb442cc",
-    "editorIndentGuide.background": "#D3D3D3",
+    "editorIndentGuide.background1": "#D3D3D3",
     "editorLineNumber.foreground": "#d0d0d0",
     "editorLineNumber.activeForeground": "#a0a0a0",
     "activityBar.background": "#ffffff",
@@ -303,6 +303,17 @@
       "name": "Entity Name Function",
       "scope": ["entity.name.function"],
       "settings": { "foreground": "#1A8C28", "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable.property",
+        "variable.other.constant.property"
+      ],
+      "settings": {
+        "foreground": "#444444"
+      }
     }
   ]
 }
