@@ -43,6 +43,14 @@
       }
     },
     {
+      "name": "Type Parameter Name",
+      "scope": ["meta.type.declaration"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#000000"
+      }
+    },
+    {
       "name": "Inherited Class Name",
       "scope": ["entity.other.inherited-class"],
       "settings": {
