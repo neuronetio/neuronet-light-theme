@@ -46,7 +46,6 @@
       "name": "Type Parameter Name",
       "scope": ["meta.type.declaration"],
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#000000"
       }
     },
