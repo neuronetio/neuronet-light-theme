@@ -2,7 +2,7 @@
   "name": "neuronet-light-theme",
   "displayName": "NEURONET light theme",
   "description": "VSCODE light theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "engines": {
     "vscode": "^1.63.0"
