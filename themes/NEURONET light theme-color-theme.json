@@ -355,7 +355,7 @@
       "name":"const / let / var",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#cc3fcc"
+        "foreground": "#d810d5"
       }
     },
   ]
