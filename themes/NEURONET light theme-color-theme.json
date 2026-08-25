@@ -1,5 +1,5 @@
 {
-  "name": "NEURONET light theme",
+  "name": "NEURONET light theme dev",
   "type": "light",
   "colors": {
     "editor.background": "#ffffff",
@@ -53,14 +53,6 @@
       "name": "Inherited Class Name",
       "scope": ["entity.other.inherited-class"],
       "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Function Name",
-      "scope": ["entity.name.function", "meta.definition.method.ts", "entity.name.function.ts"],
-      "settings": {
-        "fontStyle": "bold",
         "foreground": "#000000"
       }
     },
@@ -175,7 +167,7 @@
         "string.quoted.double.js"
       ],
       "settings": {
-        "foreground": "#CE7B00"
+        "foreground": "#DE8E0DFF"
       }
     },
 
@@ -197,9 +189,6 @@
       "name": "Identifier",
       "scope": [
         "variable",
-        "meta.function-call.ts entity.name.function.ts",
-        "meta.function-call.js entity.name.function.js",
-        "support.function",
         "support.variable.property.js",
         "storage.modifier.import",
         "storage.modifier.package",
@@ -307,11 +296,6 @@
       "settings": { "foreground": "#A626A4", "fontStyle": "bold" }
     },
     {
-      "name": "Entity Name Function",
-      "scope": ["entity.name.function"],
-      "settings": { "foreground": "#1A8C28", "fontStyle": "bold" }
-    },
-    {
       "scope": [
         "variable.other.property",
         "variable.other.object.property",
@@ -324,7 +308,7 @@
     },
     {
       "name": "functions",
-      "scope": "entity.name.function",
+      "scope": ["function", "entity.name.function"],
       "settings": { "foreground": "#1a8c27ef", "fontStyle": "bold" }
     },
     {
@@ -339,6 +323,7 @@
         "foreground": "#0000e6a6"
       }
     },
+
     {
       "name": "Keywords",
       "scope": [
@@ -365,6 +350,13 @@
       "settings": {
         "foreground": "#0000e6c2"
       }
-    }
+    },
+    {
+      "name":"const / let / var",
+      "scope": ["storage.type"],
+      "settings": {
+        "foreground": "#cc3fcc"
+      }
+    },
   ]
 }
